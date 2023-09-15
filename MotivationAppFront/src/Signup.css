@@ -1,0 +1,25 @@
+.firstDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.signupContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+  height: 100vh;
+}
+
+.signupContainer h1{
+   color: black;
+    font-size: 2rem;
+}
+.formStyle{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

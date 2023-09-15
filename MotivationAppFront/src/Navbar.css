@@ -1,0 +1,7 @@
+.navbar{
+    top: 0;
+    position: static;
+}
+.userStatus{
+    display: flex;
+}

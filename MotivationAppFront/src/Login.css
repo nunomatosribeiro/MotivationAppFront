@@ -1,0 +1,116 @@
+
+.loginContainer1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cliploader{
+  top: 50%;
+  left: 50%;
+}
+
+  .backgroundContainerStyle2 form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .titleStyleLogin {
+    font-size: 36px;
+    text-align: center;
+    margin-top: 30px;
+    color: black;
+    padding: 20px;
+    
+  }; 
+  
+  .labelStyle {
+  align-items: flex-start;
+  color: #555; 
+  margin-bottom: 10px;
+  }
+   
+  .inputStyle {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin: 5px 0;
+  };
+  .buttonContainer{
+    display: flex;
+    background-color: black;
+    width: 100px;
+  }
+.buttonStyle {
+    padding: 10px 20px;
+  border-radius: 5px;
+  background: #007bff; 
+  color: #fff; 
+  border: none;
+  cursor: pointer;
+  width: 100px;
+  font-size: 18px;
+  transition: background-color 0.3s;
+  };
+  .buttonStyle:hover {
+    background-color: #0056b3; 
+  }
+  .errorMessage {
+    color: red; 
+    text-align: center;
+  }
+.loginImage {
+    width: 300px;
+
+}
+@media (max-width: 768px) {
+    .backgroundContainerStyle2 {
+    
+      max-width: 80%;
+    }
+  } 
+  @media (min-width: 860px) {
+    .line{
+      width: 300px;
+      margin-left: auto;
+      margin-right: auto;
+      height: 2px;
+      transform: rotate(90deg);
+      background-color:black;
+      opacity: 0.5;
+    }
+    .loginContainer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      max-width: 1200px;
+      min-height: 100vh;
+      background: white;
+      
+  }
+  }
+ 
+  @media (max-width: 1000px) {
+    
+      .loginContainer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+       
+        min-height: 100vh;
+        background: white;
+        margin-top: 50px;
+        
+    }
+    .backgroundContainerStyle2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 700px;
+        top: 100px;
+      
+        padding: 20px;
+        
+      }
+}

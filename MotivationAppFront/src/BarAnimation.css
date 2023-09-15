@@ -1,0 +1,15 @@
+.bar {
+    
+    height: 20px;
+    background-color: #3498db;
+   border-radius: 10px;
+  }
+  
+  @keyframes increaseWidth {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%; /* Adjust as needed based on the maximum value */
+    }
+  }
